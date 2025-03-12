@@ -19,7 +19,7 @@ public class PaymentService {
 
 
    public List<Payment> getAll() {
-       return paymentRepository.findAll();
+       return paymentRepository.findAll();//mengakses semua data
    }
 
 
@@ -50,3 +50,8 @@ public class PaymentService {
        paymentRepository.delete(payment);
    }
 }
+
+
+
+
+
